@@ -1,72 +1,78 @@
-# Getting Started with Create React App
+# E-Commerce React App
 
-# E-Shop
-
-A fully functional **E-commerce website** built with **React.js**, **Redux Toolkit**, and **Firebase Authentication**.  
-This project allows users to browse products, add them to the cart, place orders, and manage their profile.
-
----
-The project will run on http://localhost:3000
-.
-## Website Screenshot
-
-![E-Shop Screenshot](./Screenshot.png)
-
-> Place your screenshot inside a folder called `screenshots` in the project root and name it `screenshot.png`.
-clcik 
----
-
-## Features
-
-- User login and signup using Firebase Authentication
-- Protected routes for Cart, Profile, and Orders
-- Add products to cart and view total quantity
-- Place orders with address input and cash-on-delivery option
-- Cancel orders from the Orders page
-- Dark/Light mode toggle
-- Search products
-- Responsive design for mobile and desktop
+This is a simple e-commerce web application built with **React**, **Redux Toolkit**, and **Firebase authentication**. Users can browse products, add them to the cart, and place orders. Dark mode and user login/logout features are included.
 
 ---
 
-## Getting Started
+## 📸 Screenshot
 
-### Prerequisites
-- Node.js installed
-- npm or yarn installed
+![E-Commerce App Screenshot](src/screenshot.png)
 
-### Installation
+---
 
-1. **Clone the repository**
+## ⚡ Features
+
+- Browse products fetched from a fake API
+- Product details page
+- Add/remove products from the cart
+- Place orders with address and Cash on Delivery
+- User authentication (signup/login/logout)
+- Protected routes (cart, orders, profile)
+- Dark mode toggle
+
+---
+
+## 💻 Getting Started (Local Development)
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository**  
 ```bash
 git clone https://github.com/Naveenpyla/shoppingApp.git
-
 Navigate to the project folder
 
-cd shoppingApp
-
-
+bash
+Copy code
+cd ecommerce-app
 Install dependencies
 
+bash
+Copy code
 npm install
-
-
 Start the development server
 
+bash
+Copy code
 npm start
+Open your browser at:
 
+arduino
+Copy code
+http://localhost:3000
+⚠️ Note: The app runs locally on your machine. localhost:3000 will not work on GitHub.
 
-The website will run on http://localhost:3000
-.Usage
+🔧 Project Structure
+csharp
+Copy code
+ecommerce-app/
+├── public/
+├── src/
+│   ├── components/       # Navbar, ProductCard, ProtectedRoute, etc.
+│   ├── context/          # AuthContext, ThemeContext
+│   ├── pages/            # Home, ProductDetails, Cart, Profile, Orders, Login, Signup
+│   ├── slices/           # Redux slices (products, cart)
+│   ├── App.js
+│   └── index.js
+├── package.json
+├── package-lock.json
+└── README.md
+🔗 Dependencies
+React
 
-Login / Signup: Create an account or login using existing credentials.
+Redux Toolkit
 
-Browse Products: Navigate the home page to view products.
+React Router DOM
 
-Add to Cart: Click the cart icon on a product to add it.
+Firebase
 
-Place Order: In the cart, click Order, enter your address, and select Cash on Delivery.
-
-Cancel Order: Go to Orders and click Cancel on any order.
-
-Toggle Theme: Switch between light and dark mode using the icon in the Navbar.
+Material UI
