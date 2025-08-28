@@ -1,70 +1,71 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# E-Shop
 
-## Available Scripts
+A fully functional **E-commerce website** built with **React.js**, **Redux Toolkit**, and **Firebase Authentication**.  
+This project allows users to browse products, add them to the cart, place orders, and manage their profile.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Website Screenshot
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![E-Shop Screenshot](./Screenshot.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> Place your screenshot inside a folder called `screenshots` in the project root and name it `screenshot.png`.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- User login and signup using Firebase Authentication
+- Protected routes for Cart, Profile, and Orders
+- Add products to cart and view total quantity
+- Place orders with address input and cash-on-delivery option
+- Cancel orders from the Orders page
+- Dark/Light mode toggle
+- Search products
+- Responsive design for mobile and desktop
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+- Node.js installed
+- npm or yarn installed
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the repository**
+```bash
+git clone https://github.com/Naveenpyla/shoppingApp.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Navigate to the project folder
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+cd shoppingApp
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Install dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Start the development server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm start
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The website will run on http://localhost:3000
+.Usage
 
-### Making a Progressive Web App
+Login / Signup: Create an account or login using existing credentials.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Browse Products: Navigate the home page to view products.
 
-### Advanced Configuration
+Add to Cart: Click the cart icon on a product to add it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Place Order: In the cart, click Order, enter your address, and select Cash on Delivery.
 
-### Deployment
+Cancel Order: Go to Orders and click Cancel on any order.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Toggle Theme: Switch between light and dark mode using the icon in the Navbar.
