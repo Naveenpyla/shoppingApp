@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.6e431a96.css","mappings":"AACA,KACE,QAAS,CAET,gBAAiB,CADjB,SAAU,CAEV,yCACF","sources":["index.css"],"sourcesContent":["/* src/index.css */\nbody {\n  margin: 0;\n  padding: 0;\n  min-height: 100vh;\n  transition: background-color 0.3s, color 0.3s; /* Smooth transition for theme switch */\n}"],"names":[],"sourceRoot":""}
