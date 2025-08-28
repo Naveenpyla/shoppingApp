@@ -1,78 +1,79 @@
-# E-Commerce React App
+# E-commerce App
 
-This is a simple e-commerce web application built with **React**, **Redux Toolkit**, and **Firebase authentication**. Users can browse products, add them to the cart, and place orders. Dark mode and user login/logout features are included.
-
----
-
-## 📸 Screenshot
-
-![E-Commerce App Screenshot](src/screenshot.png)
+A fully functional e-commerce website built with **React**, **Redux Toolkit**, **Firebase Authentication**, and **Material-UI**.
 
 ---
 
-## ⚡ Features
+## Live Demo
 
-- Browse products fetched from a fake API
-- Product details page
-- Add/remove products from the cart
-- Place orders with address and Cash on Delivery
-- User authentication (signup/login/logout)
-- Protected routes (cart, orders, profile)
-- Dark mode toggle
+Check out the live website here: [E-commerce App Live](https://Naveenpyla.github.io/shoppingApp)
 
 ---
 
-## 💻 Getting Started (Local Development)
+## Screenshot
 
-Follow these steps to run the project locally:
+![E-commerce App Screenshot](src/screenshot.png)  
 
-1. **Clone the repository**  
+---
+
+## Features
+
+- Browse products from a fake API
+- Search and filter products
+- Add products to cart
+- Place and cancel orders
+- View order history
+- User authentication (login, signup, logout)
+- Dark/Light mode toggle
+- Responsive design
+
+---
+
+## Getting Started Locally
+
+### Prerequisites
+
+- Node.js (v18+ recommended)
+- npm (v9+ recommended)
+
+### Installation
+
+1. Clone the repository:
+
 ```bash
 git clone https://github.com/Naveenpyla/shoppingApp.git
-Navigate to the project folder
-
-bash
-Copy code
-cd ecommerce-app
-Install dependencies
+cd shoppingApp
+Install dependencies:
 
 bash
 Copy code
 npm install
-Start the development server
+Run the project:
 
 bash
 Copy code
 npm start
-Open your browser at:
+The app will run on http://localhost:3000.
 
-arduino
-Copy code
-http://localhost:3000
-⚠️ Note: The app runs locally on your machine. localhost:3000 will not work on GitHub.
-
-🔧 Project Structure
-csharp
+Folder Structure
+php
 Copy code
 ecommerce-app/
 ├── public/
 ├── src/
 │   ├── components/       # Navbar, ProductCard, ProtectedRoute, etc.
-│   ├── context/          # AuthContext, ThemeContext
-│   ├── pages/            # Home, ProductDetails, Cart, Profile, Orders, Login, Signup
+│   ├── pages/            # Home, ProductDetails, Cart, Login, Signup, Profile, Orders
 │   ├── slices/           # Redux slices (products, cart)
+│   ├── context/          # Theme and Auth context
 │   ├── App.js
-│   └── index.js
+│   ├── index.js
+│   └── screenshot.png    # Project screenshot
 ├── package.json
-├── package-lock.json
 └── README.md
-🔗 Dependencies
-React
+Deployment
+This project is deployed on GitHub Pages. To deploy:
 
-Redux Toolkit
-
-React Router DOM
-
-Firebase
-
-Material UI
+bash
+Copy code
+npm run build
+npm run deploy
