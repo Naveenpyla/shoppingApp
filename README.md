@@ -6,13 +6,14 @@ A fully functional **E-commerce website** built with **React.js**, **Redux Toolk
 This project allows users to browse products, add them to the cart, place orders, and manage their profile.
 
 ---
-
+The project will run on http://localhost:3000
+.
 ## Website Screenshot
 
 ![E-Shop Screenshot](./Screenshot.png)
 
 > Place your screenshot inside a folder called `screenshots` in the project root and name it `screenshot.png`.
-
+clcik 
 ---
 
 ## Features
